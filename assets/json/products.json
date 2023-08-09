@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "title": "Pasta Carbonara",
+      "photoPath": "https://images.pexels.com/photos/5710178/pexels-photo-5710178.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 10.99,
+      "description": "Classic Italian pasta dish with creamy sauce and bacon.",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Grilled Salmon",
+      "photoPath": "https://images.pexels.com/photos/11267159/pexels-photo-11267159.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 14.99,
+      "description": "Freshly grilled salmon fillet with lemon and herbs.",
+      "categoryId": 2
+    },
+    {
+      "id": 1,
+      "title": "Margherita Pizza",
+      "photoPath": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 8.99,
+      "description": "Traditional Italian pizza with tomato, mozzarella, and basil.",
+      "categoryId": 1
+    },
+    {
+      "id": 1,
+      "title": "Chicken Stir-Fry",
+      "photoPath": "https://images.pexels.com/photos/6210747/pexels-photo-6210747.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 12.49,
+      "description": "Wok-tossed chicken with vegetables in savory sauce.",
+      "categoryId": 3
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Lava Cake",
+      "photoPath": "https://images.pexels.com/photos/5946037/pexels-photo-5946037.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 6.99,
+      "description": "Decadent chocolate cake with a gooey molten center.",
+      "categoryId": 4
+    },
+    {
+      "id": 3,
+      "title": "Caesar Salad",
+      "photoPath": "https://images.pexels.com/photos/3672013/pexels-photo-3672013.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 7.49,
+      "description": "Crisp romaine lettuce with parmesan, croutons, and Caesar dressing.",
+      "categoryId": 5
+    },
+    {
+      "id": 1,
+      "title": "Beef Burger",
+      "photoPath": "https://images.pexels.com/photos/2454533/pexels-photo-2454533.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 9.99,
+      "description": "Juicy beef patty with lettuce, tomato, and cheese in a bun.",
+      "categoryId": 6
+    },
+    {
+      "id": 2,
+      "title": "Sushi Platter",
+      "photoPath": "https://images.pexels.com/photos/248444/pexels-photo-248444.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 18.99,
+      "description": "Assorted sushi rolls and sashimi on a platter.",
+      "categoryId": 2
+    },
+    {
+      "id": 1,
+      "title": "Mushroom Risotto",
+      "photoPath": "https://images.pexels.com/photos/11190138/pexels-photo-11190138.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 11.99,
+      "description": "Creamy risotto cooked with mushrooms and Parmesan cheese.",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "title": "Tiramisu",
+      "photoPath": "https://images.pexels.com/photos/4078174/pexels-photo-4078174.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 7.99,
+      "description": "Classic Italian dessert made with coffee-soaked ladyfingers and mascarpone cheese.",
+      "categoryId": 4
+    },
+    {
+      "id": 1,
+      "title": "Roast Chicken",
+      "photoPath": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 13.49,
+      "description": "Herb-marinated roast chicken served with roasted vegetables.",
+      "categoryId": 3
+    },
+    {
+      "id": 3,
+      "title": "Greek Salad",
+      "photoPath": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 8.49,
+      "description": "Fresh salad with tomatoes, cucumbers, olives, feta cheese, and Greek dressing.",
+      "categoryId": 5
+    },
+    {
+      "id": 1,
+      "title": "Veggie Wrap",
+      "photoPath": "https://images.pexels.com/photos/4955266/pexels-photo-4955266.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 6.99,
+      "description": "Wrap filled with assorted grilled vegetables and hummus.",
+      "categoryId": 6
+    },
+    {
+      "id": 2,
+      "title": "Sushi Bowl",
+      "photoPath": "https://images.pexels.com/photos/17178421/pexels-photo-17178421/free-photo-of-sushi-between-chopsticks.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 15.99,
+      "description": "Bowl filled with sushi rice, sashimi, and fresh vegetables.",
+      "categoryId": 2
+    },
+    {
+      "id": 1,
+      "title": "Cheese Pizza",
+      "photoPath": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.502xw:1.00xh;0.165xw,0&resize=1200:*",
+      "price": 9.99,
+      "description": "Classic cheese pizza with tomato sauce and mozzarella.",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "title": "Fruit Parfait",
+      "photoPath": "https://tatyanaseverydayfood.com/wp-content/uploads/2021/06/Easy-Fruit-Granola-Parfaits.jpg",
+      "price": 5.49,
+      "description": "Layers of yogurt, granola, and fresh fruits in a parfait glass.",
+      "categoryId": 4
+    },
+    {
+      "id": 3,
+      "title": "Stir-Fried Tofu",
+      "photoPath": "https://www.wellplated.com/wp-content/uploads/2019/03/How-to-Make-Tofu-Stir-Fry.jpg",
+      "price": 10.49,
+      "description": "Tofu stir-fried with assorted vegetables in a savory sauce.",
+      "categoryId": 3
+    },
+    {
+      "id": 3,
+      "title": "Caprese Salad",
+      "photoPath": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 7.99,
+      "description": "Salad with tomatoes, mozzarella, basil, and balsamic glaze.",
+      "categoryId": 5
+    },
+    {
+      "id": 1,
+      "title": "Falafel Wrap",
+      "photoPath": "https://images.pexels.com/photos/2015191/pexels-photo-2015191.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 8.99,
+      "description": "Wrap filled with falafel, fresh vegetables, and tahini sauce.",
+      "categoryId": 6
+    },
+    {
+      "id": 3,
+      "title": "Tempura Platter",
+      "photoPath": "https://images.pexels.com/photos/6660067/pexels-photo-6660067.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 16.99,
+      "description": "Assorted tempura-battered vegetables and seafood on a platter.",
+      "categoryId": 2
+    }
+  ]
+  
