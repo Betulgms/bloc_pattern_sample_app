@@ -115,87 +115,92 @@ class _ProductViewState extends State<ProductView> {
   Widget buildProductCard(BuildContext context, int index, ProductModel product) {
     return Padding(
       padding: EdgeInsets.only(right: 6.0, left: 10, bottom: index == 9 ? 50 : 0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Expanded(
-            child: Row(
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(2),
+      child: InkWell(
+        onTap: () {
+          Navigator.pushNamed(context, "/product_detail", arguments: product);
+        },
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Expanded(
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                    child: Image.network(
+                      product.photoPath,
+                      width: 70,
+                      height: 70,
+                      fit: BoxFit.fitHeight,
+                    ),
                   ),
-                  child: Image.network(
-                    product.photoPath,
-                    width: 70,
-                    height: 70,
-                    fit: BoxFit.fitHeight,
+                  const SizedBox(
+                    width: 10,
                   ),
-                ),
-                const SizedBox(
-                  width: 10,
-                ),
-                Expanded(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        product.title,
-                        style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black,
-                        ),
-                      ),
-                      Text(
-                        product.description,
-                        style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.grey,
-                        ),
-                      ),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.local_fire_department,
-                            color: Colors.red,
-                            size: 15,
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          product.title,
+                          style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
                           ),
-                          Text(
-                            "${Random().nextInt(30) + 50} Calories",
-                            style: TextStyle(
-                              fontSize: 15,
-                              fontWeight: FontWeight.bold,
+                        ),
+                        Text(
+                          product.description,
+                          style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.local_fire_department,
                               color: Colors.red,
+                              size: 15,
                             ),
-                          ),
-                        ],
-                      ),
-                    ],
+                            Text(
+                              "${Random().nextInt(30) + 50} Calories",
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.red,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Row(
+              children: [
+                Icon(
+                  Icons.attach_money,
+                  color: Colors.black,
+                ),
+                Text(
+                  product.price.toString(),
+                  style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
                   ),
                 ),
               ],
             ),
-          ),
-          Row(
-            children: [
-              Icon(
-                Icons.attach_money,
-                color: Colors.black,
-              ),
-              Text(
-                product.price.toString(),
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                ),
-              ),
-            ],
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
